@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Vasyliy22/books-redux-toolkit/static/css/main.07036204.css",
+    "main.js": "/Vasyliy22/books-redux-toolkit/static/js/main.46ca2f51.js",
+    "index.html": "/Vasyliy22/books-redux-toolkit/index.html",
+    "static/media/search.svg": "/Vasyliy22/books-redux-toolkit/static/media/search.52f972f5b53c87677291.svg",
+    "main.07036204.css.map": "/Vasyliy22/books-redux-toolkit/static/css/main.07036204.css.map",
+    "main.46ca2f51.js.map": "/Vasyliy22/books-redux-toolkit/static/js/main.46ca2f51.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07036204.css",
+    "static/js/main.46ca2f51.js"
+  ]
+}
