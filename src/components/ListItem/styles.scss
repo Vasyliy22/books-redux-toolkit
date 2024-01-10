@@ -1,0 +1,14 @@
+@import '../../styles/mixins';
+
+.list__item {
+  display: block;
+  padding: 12px;
+
+  @include onTable {
+    flex: 0 1 30%;
+  }
+
+  @include onDesktop {
+    flex: 0 1 25%;
+  }
+}

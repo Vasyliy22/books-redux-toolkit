@@ -1,0 +1,54 @@
+@import '../../styles/mixins';
+
+.current-book {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  gap: 50px;
+
+  @include onTable {
+    flex-direction: row;
+  }
+
+  &__block {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(218, 213, 213);
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+  }
+
+  &__image {
+    object-fit: cover;
+    object-position: center;
+  }
+
+  &__categories {
+    text-decoration: none;
+    color: gray;
+  }
+
+  &__title {
+    font-weight: 500;
+  }
+
+  &__author {
+    color: gray;
+  }
+
+  &__description {
+    width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid gray;
+    color: #000;
+  }
+}

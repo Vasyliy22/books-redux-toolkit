@@ -1,0 +1,23 @@
+@import './styles/mixins';
+
+.App {
+  padding: 0 16px;
+
+  @include onTable {
+    padding: 0 32px;
+  }
+
+  @include onDesktop {
+    padding: 0 64px;
+  }
+
+  @include onScreen {
+    padding: 0 128px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

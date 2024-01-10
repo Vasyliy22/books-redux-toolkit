@@ -1,0 +1,8 @@
+.header__content {
+  position: relative;
+  width: 100%;
+
+  &:focus .search__button {
+    background: black;
+  }
+}
